@@ -1,6 +1,10 @@
 const fs = require('fs')
 const MarkdownIt = require('markdown-it')
 
+/**
+ * TODO: 使用 markdown-it-multimd-table 插件识别表格，使用 markdown-it-emoji 插件识别emoji
+ */
+
 const md = new MarkdownIt()
 
 // 识别at([@xxx@])语法
